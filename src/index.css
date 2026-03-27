@@ -3,13 +3,16 @@ html {
 }
 
 :root {
-    --primary-color: rgb(0, 85, 98);
-    --secondary-color: rgb(0, 75, 86);
-    --font-color: rgb(0, 196, 226);
+    --primary-color: #0d1212;
+    --secondary-color: rgb(0, 196, 226);
+    --secondsecondary-color:rgb(0, 196, 226, 0.1);
+    --font-color: #ffffff;
     --deactive-color: rgb(20, 143, 162);
     --shadow-color: rgb(0, 46, 53);
     --secondFont-color: rgb(88, 138, 147);
     --third-color: rgb(55, 228, 255);
+    --bg-onyx:#050505;
+    --luxury-gold:#c5a059;
 }
 
 body {
