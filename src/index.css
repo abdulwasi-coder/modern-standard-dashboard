@@ -1,0 +1,20 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: rgb(0, 85, 98);
+    --secondary-color: rgb(0, 75, 86);
+    --font-color: rgb(0, 196, 226);
+    --deactive-color: rgb(20, 143, 162);
+    --shadow-color: rgb(0, 46, 53);
+    --secondFont-color: rgb(88, 138, 147);
+    --third-color: rgb(55, 228, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
