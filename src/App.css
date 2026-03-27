@@ -503,21 +503,21 @@ footer svg:hover {
     #side-menu {
         display: flex;
         flex-direction: column;
-        background-color: rgba(20, 143, 162, 1);
+        background-color: var(--shadow-color);
         position: fixed;
-        right: 0vw;
+        right: 0;
         top: 0;
         width: 70vw;
         height: 100vh;
         padding-top: 3vh;
-        box-shadow: -30vw 5px 5px rgba(28, 62, 63, 0.848);
+        box-shadow: -30vw 5px 5px rgba(28, 62, 63);
 
     }
 
     #side-menu span {
         font-size: 2rem;
         cursor: pointer;
-        color: rgb(19, 40, 38);
+        color: var(--secondary-color);
         margin-left: 80%;
         margin-right: 10%;
         width: clamp(3rem, 12vw, 2.5rem);
