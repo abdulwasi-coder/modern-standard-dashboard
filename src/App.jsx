@@ -16,6 +16,7 @@ const App = () => {
     const element = document.getElementById(id)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
+      setsidebutton(false)
     }
   }
 
@@ -41,11 +42,11 @@ const App = () => {
             <div>
               <nav id="side-menu">
                 <span id="x" onClick={sideevent}>X</span>
-                <a href="#section1">Home</a>
-                <a href="#Section2">About</a>
-                <a href="#Section3">Skills</a>
-                <a href="#Section4">Project</a>
-                <a href="#Section5">Contact</a>
+                <a href="#section1" onClick={(e) => { handleNavClick(e, 'section1') }}>Home</a>
+                <a href="#Section2" onClick={(e) => { handleNavClick(e, 'section2') }}>About</a>
+                <a href="#Section3" onClick={(e) => { handleNavClick(e, 'section3') }}>Skills</a>
+                <a href="#Section4" onClick={(e) => { handleNavClick(e, 'section4') }}>Project</a>
+                <a href="#Section5" onClick={(e) => { handleNavClick(e, 'section5') }}>Contact</a>
                 <a href="#">Help</a>
                 <a href="#">Complain</a>
                 <a href="#">Assistance</a>
