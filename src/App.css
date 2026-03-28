@@ -196,7 +196,8 @@
     flex-direction: column;
     background-color: var(--bg-onyx);
     height: 45vh;
-    padding: 0 5%;
+
+    padding: 0 2%;
     align-items: center;
     gap: 1vh;
     justify-content: center;
